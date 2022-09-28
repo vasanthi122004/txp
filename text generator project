@@ -1,0 +1,40 @@
+TensorFlow
+most commonly used machine learning libraries in python
+designed by google brain
+speacialized in creating neural networks
+its power lies in its ability to join together many different processing units
+
+keras
+it is an application programming interface
+it makes use of tensorflow functions
+it streamlines the implementation of tensorflow function, making building in a neural network much easier ansd simpler
+
+encoding
+also refers to as word representation
+it is a process of converting text data into a form that a machile learning model can understand
+primary methods of encoding are one-hot encoding and embedded vectors
+
+recurrent neural network
+the data has to be in a fixed size
+at any given layer in neural network the data being passed in is simply the output of the previous layer in the network,which r then transfered by the weight of that layer
+they can take the previous part of a seentence into accout to interpret context
+
+long short term memory
+lstm networks are a specific type of recurrent neural network
+while rnns can usualy remember previous words in a sentence,their ability to preserve the context of earlier input degrades over time
+lstms are more robust when handeling long strings of text
+
+encoding revisited
+one hot encoding refers to the method of representing the text as a series of ones and zeros
+a vector is created for every word in the feature set
+they r useful when u hve to create a bag of words,
+bag of words model are used because they maintain a lot of important information 
+the drawback is that they cannot represent the meaninful word, nor they can easily represent the similarities between words
+
+word embedding
+it refers to representing words or phrases as a vector of real number
+it can use more numbers than simply ones and zeros
+the representation can store important info about words
+it has fewer dimensions than one hot encoded vectors do
+it can generalize because semantically similar words have similar vectors
+
